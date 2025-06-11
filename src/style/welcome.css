@@ -41,6 +41,7 @@
 }
 
 .hi-text {
+  text-align: center;
   font-size: 2vw;
 }
 
@@ -53,12 +54,12 @@
 }
 
 .social-img {
-  height: 3vw;
+  height: 3.5rem;
 }
 
 .social-button {
   margin: 0.5rem;
-  height: 3vw;
+  height: 3.5rem;
   padding: 0px;
   background-color: transparent;
   border: none;
@@ -122,15 +123,16 @@
     padding: 5rem 0;
     width: 95vw;
     min-height: 60vw;
-    max-height: 100vw;
+    max-height: 95vw;
   }
 
   .welcome-img-mob {
     display: flex;
-    width: 25vw;
+    width: 40vw;
     border-radius: 3rem;
     margin-bottom: 0px;
     margin-right: 0px;
+    box-shadow: rgba(0, 0, 0, 0.1) 25px 25px 25px -5px, rgba(0, 0, 0, 0.04) 10px -10px 10px -5px;
   }
 
   .into-text-cont {
@@ -157,9 +159,20 @@
     flex-direction: row;
   }
 
+  .scroll-img {
+    width: 2rem;
+    height: 2rem;
+  }
+
   .scroll-down-arrow {
+    display: flex;
+    padding: 1.2rem;
+    align-items: center;
+    justify-content: center;
+    width: 2rem;
+    height: 2rem;
     margin-top: 1rem;
-    margin-bottom: 3rem;
+    margin-bottom: 4.5rem;
   }
 
   .scroll-img {

@@ -1,4 +1,4 @@
-import giorgiImg from "../assets/photos/Giorgi.png";
+import giorgiImg from "../assets/photos/Giorgi.webp";
 import githubIMG from "../assets/photos/github.png";
 import linkedinIMG from "../assets/photos/linkedin.png";
 import scrollArrow from "../assets/photos/down-arrow.png";
