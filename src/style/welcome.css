@@ -6,6 +6,18 @@
   margin-right: 0px;
 }
 
+.img-zoom {
+  opacity: 0;
+  animation: imgZoom 1s ease-out forwards;
+  animation-delay: 0.2s;
+}
+
+@keyframes imgZoom {
+  to {
+    opacity: 1;
+  }
+}
+
 .img-box {
   display: flex;
   align-items: center;
@@ -17,6 +29,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin-top: 10vw;
 }
 
 .welcome-box {
@@ -29,6 +42,19 @@
   padding: 0px;
   border-radius: 3rem;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.fade-slide-up {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeSlideUp 0.8s ease-out forwards;
+}
+
+@keyframes fadeSlideUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .into-text-cont {
@@ -64,12 +90,12 @@
   background-color: transparent;
   border: none;
   border-radius: 1rem;
-  transition: 0.5s;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .social-button:hover {
-  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
-  transition: 0.5s;
+  transform: scale(1.1);
+  box-shadow: 0 0 12px #ffffff44;
 }
 
 @keyframes bounce {
@@ -132,7 +158,8 @@
     border-radius: 3rem;
     margin-bottom: 0px;
     margin-right: 0px;
-    box-shadow: rgba(0, 0, 0, 0.1) 25px 25px 25px -5px, rgba(0, 0, 0, 0.04) 10px -10px 10px -5px;
+    box-shadow: rgba(0, 0, 0, 0.1) 25px 25px 25px -5px,
+      rgba(0, 0, 0, 0.04) 10px -10px 10px -5px;
   }
 
   .into-text-cont {
