@@ -1,3 +1,7 @@
+import voteESNIMG from "../assets/photos/vote-esn-logo.png"
+import ankhLogo from "../assets/photos/ankh-logo.png"
+import qirvexLogo from "../assets/photos/qirvex-portfolio.png"
+
 export const projects = [
   {
     title: "voteESN | Elections System",
@@ -6,7 +10,7 @@ export const projects = [
     stack: ["Vanilla JS", "Netlify"],
     github: "https://github.com/Giorgi-Garsevanishvili/VoteESN-Web",
     live: "https://voteesn.qirvex.dev/",
-    image: "../src/assets/photos/vote-esn-logo.png",
+    image: voteESNIMG,
     id: 1,
   },
   {
@@ -16,7 +20,7 @@ export const projects = [
     stack: ["Node.js", "MongoDB Atlas", "Express JS", "Mongoose"],
     github: "https://github.com/Giorgi-Garsevanishvili/VoteESN-API",
     live: "https://voteesn-api.onrender.com/",
-    image: "../src/assets/photos/vote-esn-logo.png",
+    image: voteESNIMG,
     id: 2,
   },
   {
@@ -27,7 +31,7 @@ export const projects = [
     github:
       "https://github.com/Giorgi-Garsevanishvili/Ankh-Gods-of-Egypt---IIG-s-Prod",
     live: "https://ankh-tools-gg.netlify.app/",
-    image: "../src/assets/photos/ankh-logo.png",
+    image: ankhLogo,
     id: 3,
   },
   {
@@ -37,7 +41,7 @@ export const projects = [
     stack: ["React", "Vite", "Netlify"],
     github: "https://github.com/Giorgi-Garsevanishvili/qirvex-landing",
     live: "https://qirvex.dev",
-    image: "../src/assets/photos/qirvex-portfolio.png",
+    image: qirvexLogo ,
     id: 4,
   },
 ];

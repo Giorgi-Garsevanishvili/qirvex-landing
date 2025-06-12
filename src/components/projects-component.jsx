@@ -6,7 +6,6 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
 import { SocialButtons } from "./Social-buttons";
-import { ScrollButton } from "./scroll-button";
 
 export const ProjectCard = () => {
   useEffect(() => {
