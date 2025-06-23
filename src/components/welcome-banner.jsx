@@ -2,7 +2,7 @@ import giorgiImg from "../assets/photos/Giorgi.webp";
 import githubIMG from "../assets/photos/github.png";
 import linkedinIMG from "../assets/photos/linkedin.png";
 import { SocialButtons } from "./Social-buttons";
-import "../style/welcome.css";
+import "../style/welcome.scss";
 import { ScrollButton } from "./scroll-button";
 
 export const Welcome = () => {
@@ -46,7 +46,7 @@ export const Welcome = () => {
             />
           </div>
         </div>
-        <ScrollButton targetID={"project-container"}/>
+        <ScrollButton targetID={"project-container"} />
       </section>
     </>
   );

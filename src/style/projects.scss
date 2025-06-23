@@ -4,13 +4,16 @@
   justify-content: center;
   flex-direction: column;
   margin: 4rem 0;
+  width: 98%;
 }
 
 .projects-intro {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: "orbitron", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: "orbitron", system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+    sans-serif;
   font-size: 2rem;
   font-weight: 300;
   background-color: #89878727;
@@ -56,11 +59,12 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  padding: 2rem;
+  padding: 2rem 0.9rem;
 }
 
 .project-img {
   width: 20vw;
+  border-radius: 2rem;
 }
 
 .project-card:hover {
@@ -99,6 +103,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-bottom: 1rem;
 }
 
 .project-box {
@@ -109,13 +114,19 @@
 }
 
 @media (max-width: 900px) {
+  .projects-intro {
+    margin: 0;
+  }
+
   .project-card {
     width: 95vw;
+    margin: 2rem 0;
     flex-direction: column;
   }
 
   .project-description {
     padding: 1.5rem;
+    margin: 0.5rem 0;
     width: 75vw;
   }
 
@@ -126,14 +137,20 @@
     flex-wrap: wrap;
   }
 
-
   .project-img {
     width: 65vw;
     border-bottom: 1px solid rgba(0, 0, 0, 0.185);
     border-radius: 3rem;
+    margin-top: 1rem;
+  }
+
+  .project-info {
+    padding: 0;
   }
 
   .project-title {
-    font-size: 2rem;
+    width: 90%;
+    margin: 1rem 0;
+    font-size: 1.8rem;
   }
 }
