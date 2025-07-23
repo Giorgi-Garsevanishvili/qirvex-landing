@@ -3,7 +3,9 @@ export const Footer = () => {
   return (
     <footer className="branding-container">
       <h1 className="brand-name">
-        Qirvex <span className="tm-logo">™</span>
+        <a href="https://qirvex.dev" target="_blank" className="dev-link">
+          Qirvex <span className="tm-logo">™</span>
+        </a>
       </h1>
       <p className="brand-slogan">Precision in Every Build.</p>
       <p className="name-link">
@@ -12,7 +14,6 @@ export const Footer = () => {
           Giorgi Garsevanishvili
         </a>
       </p>
-      
     </footer>
   );
 };

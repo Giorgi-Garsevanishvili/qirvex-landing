@@ -6,6 +6,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
 import { SocialButtons } from "./Social-buttons";
+import TypeComponent from "./type-component";
 
 export const ProjectCard = () => {
   useEffect(() => {
@@ -15,14 +16,15 @@ export const ProjectCard = () => {
     <section id="project-container">
       <h1 className="projects-intro">Projects</h1>
       {projects.map((item) => {
-        const { title, description, stack, github, live, image, id } = item;
+        const { title, description, stack, github, live, image, id, type } = item;
         return (
           <div key={id} className="project-card" data-aos="flip-down">
             <div className="img-cont">
               <img src={image} alt={title} className="project-img" />
+              <TypeComponent type={type}/>
             </div>
             <div className="project-info">
-              <h2 className="project-title">{title}</h2>
+              <h3 className="project-title">{title}</h3>
               <p className="project-description">{description}</p>
               <div className="stack">
                 {stack.map((tech, index) => {

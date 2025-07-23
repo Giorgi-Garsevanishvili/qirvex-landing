@@ -11,6 +11,7 @@ export const projects = [
     github: "https://github.com/Giorgi-Garsevanishvili/VoteESN-Web",
     live: "https://voteesn.qirvex.dev/",
     image: voteESNIMG,
+    type: 'front',
     id: 1,
   },
   {
@@ -21,6 +22,7 @@ export const projects = [
     github: "https://github.com/Giorgi-Garsevanishvili/VoteESN-API",
     live: "https://voteesn-api.onrender.com/",
     image: voteESNIMG,
+    type: 'back',
     id: 2,
   },
   {
@@ -32,6 +34,7 @@ export const projects = [
       "https://github.com/Giorgi-Garsevanishvili/Ankh-Gods-of-Egypt---IIG-s-Prod",
     live: "https://ankh-tools-gg.netlify.app/",
     image: ankhLogo,
+    type: 'front',
     id: 3,
   },
   {
@@ -42,6 +45,7 @@ export const projects = [
     github: "https://github.com/Giorgi-Garsevanishvili/qirvex-landing",
     live: "https://qirvex.dev",
     image: qirvexLogo ,
+    type: 'front',
     id: 4,
   },
 ];

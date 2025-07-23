@@ -5,7 +5,7 @@ import { useState } from "react";
 const root = document.getElementById("root");
 
 export const ThemeSwitch = () => {
-  let [dark, setDark] = useState(false);
+  let [dark, setDark] = useState(true);
   const toggle = () => {
     if (root.classList.contains("dark")) {
       root.classList.remove("dark");
