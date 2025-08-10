@@ -12,6 +12,10 @@
     box-shadow: rgba(255, 255, 255, 0.349) 0px 2px 8px 0px;
   }
 
+  .label-soon {
+    border-top-right-radius: 0rem;
+  }
+
   .welcome-img-mob {
     box-shadow: rgba(255, 255, 255, 0.152) 25px 25px 25px -5px,
       rgba(255, 255, 255, 0.223) 10px -10px 10px -5px;
@@ -41,6 +45,7 @@
 
   .project-img {
     opacity: 0.85;
+    border-top-right-radius: 1rem;
   }
 
   .branding-container {

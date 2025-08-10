@@ -69,6 +69,8 @@
   width: 18vw;
   border-bottom-right-radius: 1rem;
   border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  transition: ease-in-out 0.3s;
 }
 
 .label {
@@ -95,6 +97,8 @@
   background-color: black;
   color: white;
   border-bottom-left-radius: 0.5rem;
+  border-top-right-radius: 1rem;
+  transition: ease-in-out 0.3s;
 }
 
 .front {
