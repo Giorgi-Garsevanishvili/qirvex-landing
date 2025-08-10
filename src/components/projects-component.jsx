@@ -16,12 +16,12 @@ export const ProjectCard = () => {
     <section id="project-container">
       <h1 className="projects-intro">Projects</h1>
       {projects.map((item) => {
-        const { title, description, stack, github, live, image, id, type } = item;
+        const { title, description, stack, github, live, image, id, type, soon } = item;
         return (
           <div key={id} className="project-card" data-aos="flip-down">
             <div className="img-cont">
               <img src={image} alt={title} className="project-img" />
-              <TypeComponent type={type}/>
+              <TypeComponent type={type} soon={soon}/>
             </div>
             <div className="project-info">
               <h3 className="project-title">{title}</h3>
