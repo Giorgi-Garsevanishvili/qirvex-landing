@@ -54,8 +54,8 @@ export const projects = [
     description:
       "A next-generation volunteer engagement and management platform built with React and Vite. Offers a fully responsive UI, interactive dashboards, event tracking, and performance analytics — all optimized for easy scaling and future feature expansion.",
     stack: ["React", "Vite", "Netlify", "TypeScript"],
-    github: "https://qirvex.dev",
-    live: "https://qirvex.dev",
+    github: "https://github.com/Giorgi-Garsevanishvili/Contribo-Volunteer-Engagement-Platform",
+    live: "https://contribo.qirvex.dev",
     image: contriboIMG,
     type: "front",
     soon: true,
@@ -66,8 +66,8 @@ export const projects = [
     description:
       "The backend service for Contribo, built for performance, scalability, and security. Handles volunteer data management, attendance tracking, and event analytics, providing a reliable foundation for the entire Contribo platform.",
     stack: ["Node.js", "MongoDB Atlas", "Express", "Mongoose"],
-    github: "https://qirvex.dev",
-    live: "https://qirvex.dev",
+    // github: "https://qirvex.dev",
+    // live: "https://qirvex.dev",
     image: contriboIMG,
     type: "back",
     soon: true,

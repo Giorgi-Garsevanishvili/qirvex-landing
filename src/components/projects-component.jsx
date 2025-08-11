@@ -16,12 +16,22 @@ export const ProjectCard = () => {
     <section id="project-container">
       <h1 className="projects-intro">Projects</h1>
       {projects.map((item) => {
-        const { title, description, stack, github, live, image, id, type, soon } = item;
+        const {
+          title,
+          description,
+          stack,
+          github,
+          live,
+          image,
+          id,
+          type,
+          soon,
+        } = item;
         return (
           <div key={id} className="project-card" data-aos="flip-down">
             <div className="img-cont">
               <img src={image} alt={title} className="project-img" />
-              <TypeComponent type={type} soon={soon}/>
+              <TypeComponent type={type} soon={soon} />
             </div>
             <div className="project-info">
               <h3 className="project-title">{title}</h3>
@@ -36,16 +46,20 @@ export const ProjectCard = () => {
                 })}
               </div>
               <div className="buttons">
-                <SocialButtons
-                  link={live}
-                  img={liveIMG}
-                  alt={"live"}
-                ></SocialButtons>
-                <SocialButtons
-                  link={github}
-                  img={codeIMG}
-                  alt={"Source Code"}
-                ></SocialButtons>
+                {live && (
+                  <SocialButtons
+                    link={live}
+                    img={liveIMG}
+                    alt={"live"}
+                  ></SocialButtons>
+                )}
+                {github && (
+                  <SocialButtons
+                    link={github}
+                    img={codeIMG}
+                    alt={"Source Code"}
+                  ></SocialButtons>
+                )}
               </div>
             </div>
           </div>
