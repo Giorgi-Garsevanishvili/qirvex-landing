@@ -65,7 +65,7 @@ export const projects = [
     title: "Contribo | Core API Service",
     description:
       "The backend service for Contribo, built for performance, scalability, and security. Handles volunteer data management, attendance tracking, and event analytics, providing a reliable foundation for the entire Contribo platform.",
-    stack: ["Node.js", "MongoDB Atlas", "Express", "Mongoose"],
+    stack: ["Node.js", "Express", "PostgreSQL"],
     // github: "https://qirvex.dev",
     // live: "https://qirvex.dev",
     image: contriboIMG,
