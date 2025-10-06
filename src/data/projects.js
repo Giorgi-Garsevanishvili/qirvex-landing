@@ -52,7 +52,7 @@ export const projects = [
   {
     title: "Contribo | Volunteer Engagement Platform",
     description:
-      "A next-generation volunteer engagement and management platform built with React and Vite. Offers a fully responsive UI, interactive dashboards, event tracking, and performance analytics — all optimized for easy scaling and future feature expansion.",
+      "A next-generation volunteer engagement and management platform built with React, NextJS Offers a fully responsive UI, interactive dashboards, event tracking, and performance analytics — all optimized for easy scaling and future feature expansion. with AI features",
     stack: ["React", "NextJS", "TypeScript", "SQL", "Prisma", "Neon"],
     github: "https://github.com/Giorgi-Garsevanishvili/Contribo",
     live: "https://contribo.qirvex.dev",
